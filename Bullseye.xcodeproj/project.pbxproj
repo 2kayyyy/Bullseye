@@ -19,6 +19,7 @@
 		A1277056280C77B00058B475 /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1277055280C77B00058B475 /* BullseyeTests.swift */; };
 		A127705E281073510058B475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A127705D281073510058B475 /* Assets.xcassets */; };
 		A165CA96281B05B3008EDBE7 /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A165CA95281B05B3008EDBE7 /* PointsView.swift */; };
+		A1D99B83281C472800497DE4 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D99B82281C472800497DE4 /* LeaderboardView.swift */; };
 		A1F4F971281BA2AF00CF2489 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4F970281BA2AF00CF2489 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		A1277055280C77B00058B475 /* BullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTests.swift; sourceTree = "<group>"; };
 		A127705D281073510058B475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A165CA95281B05B3008EDBE7 /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
+		A1D99B82281C472800497DE4 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 		A1F4F970281BA2AF00CF2489 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 				A10BCC1328117802007EAAF0 /* RoundViews.swift */,
 				A10BCC1528117EEA007EAAF0 /* BackgroundView.swift */,
 				A165CA95281B05B3008EDBE7 /* PointsView.swift */,
+				A1D99B82281C472800497DE4 /* LeaderboardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D99B83281C472800497DE4 /* LeaderboardView.swift in Sources */,
 				A127703E280B2C680058B475 /* ContentView.swift in Sources */,
 				A10BCC1028115F7E007EAAF0 /* TextViews.swift in Sources */,
 				A10BCC122811742C007EAAF0 /* Shapes.swift in Sources */,

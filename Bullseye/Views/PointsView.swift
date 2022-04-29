@@ -17,7 +17,7 @@ struct PointsView: View {
         
         VStack(spacing: 10) {
             InstructionText(text: "The slider's value is")
-            BigNumberText(text: String(sliderValue))
+            BigNumberText(text: String(roundedvalue))
             BodyText(text: "You scored \(points) points\n🎉🎉🎉")
             Button(action: {
                 withAnimation {
